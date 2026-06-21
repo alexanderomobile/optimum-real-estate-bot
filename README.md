@@ -1,12 +1,28 @@
+🇷🇺 [Русский](README.md) · 🇬🇧 [English](README.en.md) · 🇪🇸 [Español](README.es.md)
+
 # Optimum Real Estate Bot
 
-**Мультиязычный бот для агентов недвижимости** + sync с WordPress (13 языков).
+**Мультиязычный бот для агентов недвижимости**
 
-> Showcase без кода.
+> Showcase без кода. Исходники — приватный репозиторий.
+
+---
+
+## Задача
+
+Мультиязычный бот для агентов недвижимости.
+
+## Функционал
+
+Запрос на любом языке, поиск MySQL/RAG, ссылки на карточки сайта, sync WordPress.
+
+## Польза для бизнеса
+
+Ускоряет работу агентов с иностранными клиентами; единая база и публикация на 13 языках.
 
 ## Стек
 
-python-telegram-bot · MySQL · ChromaDB · OpenAI · WordPress REST
+python-telegram-bot · MySQL · ChromaDB · OpenAI · WordPress
 
 ## Архитектура
 
@@ -15,9 +31,11 @@ python-telegram-bot · MySQL · ChromaDB · OpenAI · WordPress REST
 ## Запуск
 
 ```bash
-python main.py
+pip install -r requirements.txt && python main.py
 ```
 
-**Case Study:** [portfolio](https://github.com/alexanderomobile/portfolio/blob/main/case-studies/04-optimum-real-estate.md)
+**Статус:** ✅ Завершён
+
+**Case Study:** [04-optimum-real-estate.md](https://github.com/alexanderomobile/portfolio/blob/main/case-studies/ru/04-optimum-real-estate.md)
 
 [@alexanderomobile](https://github.com/alexanderomobile)
